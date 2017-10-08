@@ -8,7 +8,7 @@
    </PropertyGroup>
    <ItemGroup>
      <PackageReference Include="MSBuild.Sdk.Extras" Version="1.0.3" PrivateAssets="All" />
-     <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+     <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
      <ProjectReference Include="..\..\src\Microsoft.Azure.Mobile.Client\Microsoft.Azure.Mobile.Client.csproj" />
      <ProjectReference Include="..\Microsoft.WindowsAzure.MobileServices.TestFramework\Microsoft.WindowsAzure.Mobile.TestFramework.csproj" />
    </ItemGroup>

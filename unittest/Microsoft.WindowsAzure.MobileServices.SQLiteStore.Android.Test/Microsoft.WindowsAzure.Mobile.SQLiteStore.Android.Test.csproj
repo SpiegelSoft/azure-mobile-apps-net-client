@@ -83,6 +83,9 @@
     <AndroidResource Include="Resources\Values\Strings.xml" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="xamarin.android.support.v4">
+      <Version>25.4.0.2</Version>
+    </PackageReference>
     <ProjectReference Include="..\..\src\Microsoft.Azure.Mobile.Client.SQLiteStore\Microsoft.Azure.Mobile.Client.SQLiteStore.csproj">
       <Project>{99c2f464-172a-4b49-93b7-9b0e4fed1310}</Project>
       <Name>Microsoft.Azure.Mobile.Client.SQLiteStore</Name>

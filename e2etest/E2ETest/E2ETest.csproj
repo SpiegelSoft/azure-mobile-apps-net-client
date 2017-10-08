@@ -15,7 +15,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="MSBuild.Sdk.Extras" Version="1.0.3" PrivateAssets="All" />
-    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
     <ProjectReference Include="..\E2ETestFramework\E2ETestFramework.csproj" />
   </ItemGroup>
   <ItemGroup Condition=" '$(Configuration)' != 'SdkRel' ">
